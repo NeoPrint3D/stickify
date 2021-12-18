@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+    @apply bg-gray-200 dark:bg-gray-600 p-3 mx-auto rounded-2xl;
+  }
+  
+  .standard {
+    @apply w-10/12;
+  }
+  .head {
+    @apply font-logo text-center text-5xl my-5;
+  }
+  .outer-color {
+    @apply bg-gradient-to-tr  from-gray-300 to-gray-50 dark:from-gray-500 dark:to-gray-900;
+  }
+  
+  .font-logo {
+    font-family: "Merienda One", cursive;
+  }
+  .h-cool {
+    height: calc(100vh - 8rem);
+  }
+  .underline-neoblue{
+    @apply hover:underline hover:decoration-neoblue;
+  }
+
